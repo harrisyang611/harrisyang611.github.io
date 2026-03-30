@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Harris Yang</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -41,7 +41,6 @@
         header {
             padding: 2rem 0;
             border-bottom: 1px solid var(--border);
-            background: var(--surface);
             position: sticky;
             top: 0;
             z-index: 100;
@@ -60,6 +59,8 @@
             font-size: 1.5rem;
             font-weight: 600;
             letter-spacing: 0.5px;
+            text-decoration: none;
+            color: var(--primary);
         }
 
         nav ul {
@@ -491,11 +492,12 @@
 <body>
     <header>
         <nav class="container">
-            <div class="logo">Harris Yang</div>
+            <a href="index.html" class="logo">Harris Yang</a>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
             </ul>
         </nav>
     </header>
@@ -505,15 +507,16 @@
             <div class="container">
                 <div class="hero-container">
                     <div class="hero-content">
-                        <div class="hero-label">Researcher & Developer</div>
-                        <h1>Who AM I?</h1>
+                        <div class="hero-label">PhD Researcher &amp; AI Engineer</div>
+                        <h1>Harris <strong>Yang</strong></h1>
+                        <p>PhD student at the University of Toronto studying how people perceive and trust AI systems in the real world. I build LLM systems, teach analytics, and occasionally release rap albums.</p>
                         <div class="cta-buttons">
                             <a href="#projects" class="btn btn-primary">View My Work</a>
+                            <a href="resume.html" class="btn btn-secondary">Resume</a>
                             <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                         </div>
                     </div>
                     <div class="hero-image">
-                        <!-- Replace 'your-photo.jpg' with your actual headshot photo -->
                         <img src="https://drive.google.com/uc?export=view&id=1jyAba8OjpU_drkC-QtCEq0bVCR4AnQcd" alt="Professional Photo">
                     </div>
                 </div>
@@ -528,28 +531,26 @@
                 </div>
                 <div class="about-content">
                     <div class="about-text">
-                        <p>Hi there. I am a developer.</p>
-                        <p>I will think of something and write it here. I guess</p>
+                        <p>I'm a PhD student in Information at the University of Toronto, where I study how people perceive and trust AI systems in practice. My research uses surveys and interviews to understand how engineers form mental models of LLMs — and how those models shape the decisions they make when deploying AI in production.</p>
                     </div>
                     <div>
-                        <!-- Replace 'casual-photo.jpg' with your working/candid photo -->
-                        <img src="images/about.jpg" alt="Who forgets to put a picture here?"" class="about-image">
+                        <img src="images/about.jpg" alt="Harris Yang" class="about-image">
                         <div class="skills-grid">
                             <div class="skill-item">
-                                <h3>Data Scientist</h3>
-                                <p>DO DATA STUFF!</p>
+                                <h3>AI Researcher</h3>
+                                <p>AI trust &amp; perception, practitioner studies, mixed-methods research</p>
                             </div>
                             <div class="skill-item">
-                                <h3>Machine Learning Engineer</h3>
-                                <p>DO ML STUFF!</p>
+                                <h3>ML Engineer</h3>
+                                <p>Multi-agent pipelines, fine-tuning, production LLM systems</p>
                             </div>
                             <div class="skill-item">
                                 <h3>Educator</h3>
-                                <p>EDUCATING PEOPLE!</p>
+                                <p>Teaching predictive analytics &amp; AI at the University of Waterloo</p>
                             </div>
                             <div class="skill-item">
                                 <h3>Rapper</h3>
-                                <p>RAPPING NONSENSE!</p>
+                                <p>6 remix albums on Spotify and NetEase Music</p>
                             </div>
                         </div>
                     </div>
@@ -565,28 +566,54 @@
                 </div>
                 <div class="project-grid">
                     <article class="project-card">
-                        <!-- Replace with your actual project screenshot -->
-                        <img src="images/project1.jpg" alt="Project Title" class="project-image">
+                        <div class="project-placeholder" aria-hidden="true">◈</div>
                         <div class="project-content">
-                            <h3>Project 1</h3>
-                            <p>Some Description here</p>
+                            <h3>LLM Practitioner Engagement</h3>
+                            <p>Mixed-methods study (surveys + interviews) examining how engineers perceive and trust LLMs across enterprise and start-up contexts. Investigates how practitioners' mental models shape real-world AI deployment decisions.</p>
                             <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">Pytorch</span>
-                                <span class="tag">?</span>
+                                <span class="tag">AI Trust</span>
+                                <span class="tag">Perception</span>
+                                <span class="tag">Mixed Methods</span>
+                                <span class="tag">University of Toronto</span>
                             </div>
                         </div>
                     </article>
                     <article class="project-card">
-                        <!-- Replace with your actual project screenshot -->
-                        <img src="images/project2.jpg" alt="Another Project" class="project-image">
+                        <div class="project-placeholder" aria-hidden="true">◈</div>
                         <div class="project-content">
-                            <h3>Project 2</h3>
-                            <p>Some other project here</p>
+                            <h3>Automated Invoice Processing Pipeline</h3>
+                            <p>Multi-agent LLM pipeline on Azure automating financial invoice processing for enterprise clients. Includes OCR, dynamic schema determination, and human-in-the-loop checkpoints in a CI/CD framework.</p>
                             <div class="project-tags">
-                                <span class="tag">A</span>
-                                <span class="tag">B</span>
-                                <span class="tag">C</span>
+                                <span class="tag">Multi-agent LLM</span>
+                                <span class="tag">Azure</span>
+                                <span class="tag">CI/CD</span>
+                                <span class="tag">OCR</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-placeholder" aria-hidden="true">◈</div>
+                        <div class="project-content">
+                            <h3>LLM Applications Survey</h3>
+                            <p>Survey study examining how university students adopt and perceive LLMs in academic settings. Findings informed curriculum redesign at the University of Waterloo.</p>
+                            <div class="project-tags">
+                                <span class="tag">Survey Research</span>
+                                <span class="tag">LLM Adoption</span>
+                                <span class="tag">Education</span>
+                                <span class="tag">University of Waterloo</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-placeholder" aria-hidden="true">◈</div>
+                        <div class="project-content">
+                            <h3>Financial Scenario Generation Model</h3>
+                            <p>LSTM-VAE model for financial time series reconstruction and stress testing. Used to generate risk scenarios for portfolio evaluation and train a reinforcement learning trading agent.</p>
+                            <div class="project-tags">
+                                <span class="tag">LSTM-VAE</span>
+                                <span class="tag">Time Series</span>
+                                <span class="tag">Reinforcement Learning</span>
+                                <span class="tag">Finance</span>
                             </div>
                         </div>
                     </article>
@@ -599,10 +626,10 @@
                 <div class="contact-content">
                     <h2>Let's Work Together</h2>
                     <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
-                    <a href="mailto:your.email@example.com" class="btn btn-primary">Send Me an Email</a>
+                    <a href="mailto:harris.yang@mail.utoronto.ca" class="btn btn-primary">Send Me an Email</a>
                     <div class="social-links">
-                        <a href="https://github.com/harrisyang611" target="_blank">GitHub</a>
-                        <a href="https://www.linkedin.com/in/harrisyang611/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/harrisyang611" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/harrisyang611/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </div>
                 </div>
             </div>
@@ -611,7 +638,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Harris Yang. All rights reserved.</p>
+            <p>&copy; 2026 Harris Yang. All rights reserved.</p>
         </div>
     </footer>
 

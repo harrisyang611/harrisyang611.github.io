@@ -14,7 +14,7 @@ Polish the existing `index.html` personal website for Harris Yang by filling in 
 
 - **Label:** `PhD Researcher & AI Engineer`
 - **Heading (`h1`):** `Harris Yang`
-- **Tagline (`p`):** "PhD candidate at the University of Toronto studying how AI safety is practiced in the real world. I build LLM systems, teach analytics, and occasionally release rap albums."
+- **Tagline (`p`):** "PhD candidate at the University of Toronto studying how people perceive and trust AI systems in the real world. I build LLM systems, teach analytics, and occasionally release rap albums."
 - **CTA buttons (3):**
   1. `View My Work` → `#projects` (existing)
   2. `Resume` → `resume.html` (new, `btn-secondary`)
@@ -24,9 +24,9 @@ Polish the existing `index.html` personal website for Harris Yang by filling in 
 
 ## 2. About Me Section
 
-**Replace placeholder text with two paragraphs:**
+**Two paragraphs:**
 
-> I'm a PhD student in Information at the University of Toronto, where I research how LLM safety is understood and practiced by engineers in enterprise and start-up environments. My work bridges academic AI safety frameworks and the messy realities of production deployment — studying how practitioners' mental models shape the safety decisions they actually make.
+> I'm a PhD student in Information at the University of Toronto, where I study how people perceive and trust AI systems in practice. My research uses surveys and interviews to understand how engineers form mental models of LLMs — and how those models shape the decisions they make when deploying AI in production.
 
 > Outside academia, I work as an AI Engineer & Consultant at Maclear Data Solutions, building LLM-powered systems for financial regulators and European banks. I also teach at the University of Waterloo, where I redesigned the AFM 346 curriculum around AI and agentic systems — a course now adopted as a program-wide requirement starting 2027.
 
@@ -34,7 +34,7 @@ Polish the existing `index.html` personal website for Harris Yang by filling in 
 
 | Title | Description |
 |---|---|
-| AI Researcher | LLM safety, practitioner studies, mixed-methods research |
+| AI Researcher | AI trust & perception, practitioner studies, mixed-methods research |
 | ML Engineer | Multi-agent pipelines, fine-tuning, production LLM systems |
 | Educator | Teaching predictive analytics & AI at the University of Waterloo |
 | Rapper | 6 remix albums on Spotify and NetEase Music |
@@ -45,10 +45,10 @@ Polish the existing `index.html` personal website for Harris Yang by filling in 
 
 Replace the 2 placeholder cards with 4 real project cards. No project images exist; use the existing `project-placeholder` div style.
 
-### Project 1 — LLM Safety Practitioner Engagement
+### Project 1 — LLM Practitioner Engagement
 - **Org:** University of Toronto | 12/2025 – Ongoing
-- **Description:** Mixed-methods study examining how LLM safety is practiced across enterprise and start-up contexts. Investigates the gap between academic frameworks and real-world deployment decisions.
-- **Tags:** `LLM Safety` `Mixed Methods` `University of Toronto`
+- **Description:** Mixed-methods study (surveys + interviews) examining how engineers perceive and trust LLMs across enterprise and start-up contexts. Investigates how practitioners' mental models shape real-world AI deployment decisions.
+- **Tags:** `AI Trust` `Perception` `Mixed Methods` `University of Toronto`
 
 ### Project 2 — Automated Invoice Processing Pipeline
 - **Org:** Maclear Data Solutions | 09/2025 – 03/2026
